@@ -123,6 +123,9 @@ def cleanVersionSpace(points,versionSpace):
     versionSpace = [versionSpace[i] for i in range(len(versionSpace)) if i not in same]
     return versionSpace
 
+def testingChanges()
+    print("yay")
+
 def testAlg(d, numPoints, noise, bounds,i):
     global totalData, labelings
     versionHistory = [[3375,0]]
